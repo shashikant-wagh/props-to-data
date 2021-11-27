@@ -11,6 +11,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Installation](#install)
 - [Usage](#usage)
 - [References](#references)
 
@@ -19,11 +20,25 @@ props-to-data is a MIT-licensed open source project, which help your Vue compone
 
 We are regulating components to follow law of demeter, which is most underrated but indeed one of the most important and integral part of clean code movement, which helps you to reach goal of better, cleaner architecture.
 
-## Usage <a name = "usage"></a>
-
-### Installing
+## Installation <a name = "install"></a>
 ```
 npm install props-to-data
+```
+
+## Usage <a name = "usage"></a>
+1. Import package.
+```
+import propsToData from 'props-to-data'
+```
+2. Add following to mixins array.
+```
+mixins: [propsToData]
+```
+3. Add following to your data object, within a component.
+```
+propsToData: {
+    <prop-entity-name>: <data-entity-name>
+}
 ```
 
 ## References <a name = "references"></a>

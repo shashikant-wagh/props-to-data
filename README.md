@@ -16,7 +16,7 @@
 - [References](#references)
 
 ## Introduction <a name = "introduction"></a>
-props-to-data is a MIT-licensed open source project, which help your Vue components communicate effortlessly with each other via props without contaminating component data.
+props-to-data is a MIT-licensed open source project, which help your **Vue 2** components communicate effortlessly with each other via props without contaminating component data.
 
 We are regulating components to follow law of demeter, which is most underrated but indeed one of the most important and integral part of clean code movement, which helps you to reach goal of better, cleaner architecture.
 
